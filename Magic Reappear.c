@@ -1,5 +1,3 @@
-//ÒÔÏÂÊÇ¶ÔÁõÇ«ÀÏÊ¦2024Äê´ºÍíÄ§Êõ±íÑÝµÄ¼òµ¥ÊµÏÖ
-//Îäºº¿Æ¼¼´óÑ§ Íô¾¸Ô®
 #include <stdio.h>
 #include<windows.h>
 
@@ -41,33 +39,29 @@ void swap2(char *s, int n)
 
 int main()
 {
-    printf("ÒÔÏÂÊÇ¶ÔÁõÇ«ÀÏÊ¦2024Äê´º½ÚÁª»¶Íí»áÄ§Êõ±íÑÝµÄ¼òµ¥ÊµÏÖ\n");
-    Sleep(2000);
-    printf("Îäºº¿Æ¼¼´óÑ§ Íô¾¸Ô®\n");
-    Sleep(2000);
     char s[8];
     int n = 0, j = 0;
-    printf("Á¬ÐøÊäÈë8¸ö×ÖÄ¸£¨ÒªÇó£ºÎñ±Ø°üº¬ËÄ×é×ÖÄ¸µÄ´óÐ¡Ð´ ÈçABCDabcd£¬ÆäÖÐ´óÐ´×ÖÄ¸ÐèÒªÁ¬ÐøÇÒÓëÐ¡Ð´×ÖÄ¸·Ö¿ª£¨ÈçÊ¾ÀýÖÐABCD¾ÍÊÇÁ¬ÐøµÄÇÒABCDÓëabcdÊÇ·Ö¿ªµÄ£©£¬ÒÔ´ËÀ´ÌùºÏÁõÇ«ÀÏÊ¦±íÑÝÊ±ºòµÄÇé¾° Ã¿Ò»×é×ÖÄ¸£¨ÈçAa£©·Ö±ð´ú±íÒ»ÕÅÆË¿ËÅÆµÄ×óÓÒÁ½°ë£©\n");
-    printf("ps:×ó²à×ÖÄ¸´ú±íÆË¿ËÅÆµþµÄÉÏ²à£¬ÓÒ²à×ÖÄ¸´ú±íÆË¿ËÅÆµþµÄÏÂ²à\n");
-    printf("ÇëÁ¬ÐøÊäÈë8¸ö×ÖÄ¸£º\n");
+    printf("è¿žç»­è¾“å…¥8ä¸ªå­—æ¯ï¼ˆè¦æ±‚ï¼šåŠ¡å¿…åŒ…å«å››ç»„å­—æ¯çš„å¤§å°å†™ å¦‚ABCDabcdï¼Œå…¶ä¸­å¤§å†™å­—æ¯éœ€è¦è¿žç»­ä¸”ä¸Žå°å†™å­—æ¯åˆ†å¼€ï¼ˆå¦‚ç¤ºä¾‹ä¸­ABCDå°±æ˜¯è¿žç»­çš„ä¸”ABCDä¸Žabcdæ˜¯åˆ†å¼€çš„ï¼‰ï¼Œä»¥æ­¤æ¥è´´åˆåˆ˜è°¦è€å¸ˆè¡¨æ¼”æ—¶å€™çš„æƒ…æ™¯ æ¯ä¸€ç»„å­—æ¯ï¼ˆå¦‚Aaï¼‰åˆ†åˆ«ä»£è¡¨ä¸€å¼ æ‰‘å…‹ç‰Œçš„å·¦å³ä¸¤åŠï¼‰\n");
+    printf("ps:å·¦ä¾§å­—æ¯ä»£è¡¨æ‰‘å…‹ç‰Œå çš„ä¸Šä¾§ï¼Œå³ä¾§å­—æ¯ä»£è¡¨æ‰‘å…‹ç‰Œå çš„ä¸‹ä¾§\n");
+    printf("è¯·è¿žç»­è¾“å…¥8ä¸ªå­—æ¯ï¼š\n");
     for (int i = 0; i < 8; i++)
     {
         scanf("%c", &s[i]);
     }
-    printf("ÇëÊäÈëÄúÃû×ÖµÄ×ÖÊý£º\n");
+    printf("è¯·è¾“å…¥æ‚¨åå­—çš„å­—æ•°ï¼š\n");
     scanf("%d", &n);
     while (j < n)
     {
         swap2(s, 8);
         j++;
     }
-    printf("ÄúÄ¿Ç°µÄÅÆµþÊÇ£º\n");
+    printf("æ‚¨ç›®å‰çš„ç‰Œå æ˜¯ï¼š\n");
     for (int o = 0; o < 8; o++)
         printf("%c", s[o]);
     printf("\n");
     label1:
-    printf("ÄÃÆð¶¥ÃæµÄÈýÕÅ°ëÅÆ£¬·Åµ½Ê£ÏÂÎåÕÅ°ëÅÆÖÐ¼ä\n");
-    printf("Ê£ÏÂÎåÕÅ°ëÅÆÖÐ¼ä¹²ÓÐËÄ¸ö¼äÏ¶£¬´ÓÉÏÖÁÏÂÒÀ´Î±êºÅ1¡¢2¡¢3¡¢4,ÇëÊäÈëÊý×ÖÒÔÑ¡ÔñÄúÏëÒª²åÈëµÄÎ»ÖÃ£º\n");
+    printf("æ‹¿èµ·é¡¶é¢çš„ä¸‰å¼ åŠç‰Œï¼Œæ”¾åˆ°å‰©ä¸‹äº”å¼ åŠç‰Œä¸­é—´\n");
+    printf("å‰©ä¸‹äº”å¼ åŠç‰Œä¸­é—´å…±æœ‰å››ä¸ªé—´éš™ï¼Œä»Žä¸Šè‡³ä¸‹ä¾æ¬¡æ ‡å·1ã€2ã€3ã€4,è¯·è¾“å…¥æ•°å­—ä»¥é€‰æ‹©æ‚¨æƒ³è¦æ’å…¥çš„ä½ç½®ï¼š\n");
     int m = 0;
     scanf("%d", &m);
     int b, c = 0;
@@ -83,36 +77,36 @@ int main()
             }
             break;
         default:
-            printf("ÊäÈë´íÎó£¬Çë°´ÒªÇóÖØÐÂÊäÈë£º\n");
+            printf("è¾“å…¥é”™è¯¯ï¼Œè¯·æŒ‰è¦æ±‚é‡æ–°è¾“å…¥ï¼š\n");
             goto label1;
     }
-    printf("ÄúÄ¿Ç°µÄÅÆµþÊÇ£º\n");
+    printf("æ‚¨ç›®å‰çš„ç‰Œå æ˜¯ï¼š\n");
     for (int o = 0; o < 8; o++)
         printf("%c", s[o]);
     printf("\n");
-    printf("³éÈ¡³öÅÆµþµÄµÚÒ»ÕÅ²¢²ØÆðÀ´£¬Äú²ØÆðÀ´µÄµÚÒ»ÕÅ°ëÅÆÎª£º\n");
+    printf("æŠ½å–å‡ºç‰Œå çš„ç¬¬ä¸€å¼ å¹¶è—èµ·æ¥ï¼Œæ‚¨è—èµ·æ¥çš„ç¬¬ä¸€å¼ åŠç‰Œä¸ºï¼š\n");
     printf("%c\n", s[0]);
     char s1[7];
     for (int i = 1; i < 8; i++)
     {
         s1[i - 1] = s[i];
     }
-    printf("ÄúÄ¿Ç°µÄÅÆµþÊÇ£º\n");
+    printf("æ‚¨ç›®å‰çš„ç‰Œå æ˜¯ï¼š\n");
     for (int o = 0; o < 7; o++)
         printf("%c", s1[o]);
     printf("\n");
     label5:
-    printf("ÇëÊäÈëÄãÊÇÄÏ·½ÈË»¹ÊÇ±±·½ÈË£¨ÊäÈë¶ÔÓ¦Ñ¡ÏîÇ°ÃæµÄÊý×Ö£©\n");
-    printf("1.ÄÏ·½ÈË£¨ÄÃÈ¡1ÕÅ£©\n");
-    printf("2.±±·½ÈË£¨ÄÃÈ¡2ÕÅ£©\n");
-    printf("3.²»ÄÏ²»±±£¨ÄÃÈ¡3ÕÅ£©\n");
+    printf("è¯·è¾“å…¥ä½ æ˜¯å—æ–¹äººè¿˜æ˜¯åŒ—æ–¹äººï¼ˆè¾“å…¥å¯¹åº”é€‰é¡¹å‰é¢çš„æ•°å­—ï¼‰\n");
+    printf("1.å—æ–¹äººï¼ˆæ‹¿å–1å¼ ï¼‰\n");
+    printf("2.åŒ—æ–¹äººï¼ˆæ‹¿å–2å¼ ï¼‰\n");
+    printf("3.ä¸å—ä¸åŒ—ï¼ˆæ‹¿å–3å¼ ï¼‰\n");
     int d = 0, e = 0, f = 0;
     scanf("%d", &c);
     switch (c)
     {
         label2:
         case 1:
-            printf("Ê£ÏÂÁùÕÅ°ëÅÆÖÐ¼ä¹²ÓÐÎå¸ö¼äÏ¶£¬´ÓÉÏÖÁÏÂÒÀ´Î±êºÅ1¡¢2¡¢3¡¢4¡¢5,ÇëÊäÈëÊý×ÖÒÔÑ¡ÔñÄúÏëÒª²åÈëµÄÎ»ÖÃ£º\n");
+            printf("å‰©ä¸‹å…­å¼ åŠç‰Œä¸­é—´å…±æœ‰äº”ä¸ªé—´éš™ï¼Œä»Žä¸Šè‡³ä¸‹ä¾æ¬¡æ ‡å·1ã€2ã€3ã€4ã€5,è¯·è¾“å…¥æ•°å­—ä»¥é€‰æ‹©æ‚¨æƒ³è¦æ’å…¥çš„ä½ç½®ï¼š\n");
             scanf("%d", &d);
             switch (d)
             {
@@ -127,13 +121,13 @@ int main()
                     }
                     break;
                 default:
-                    printf("ÊäÈë´íÎó£¬Çë°´ÒªÇóÖØÐÂÊäÈë£º\n");
+                    printf("è¾“å…¥é”™è¯¯ï¼Œè¯·æŒ‰è¦æ±‚é‡æ–°è¾“å…¥ï¼š\n");
                     goto label2;
             }
             break;
         label3:
         case 2:
-            printf("Ê£ÏÂÎåÕÅ°ëÅÆÖÐ¼ä¹²ÓÐËÄ¸ö¼äÏ¶£¬´ÓÉÏÖÁÏÂÒÀ´Î±êºÅ1¡¢2¡¢3¡¢4,ÇëÊäÈëÊý×ÖÒÔÑ¡ÔñÄúÏëÒª²åÈëµÄÎ»ÖÃ£º\n");
+            printf("å‰©ä¸‹äº”å¼ åŠç‰Œä¸­é—´å…±æœ‰å››ä¸ªé—´éš™ï¼Œä»Žä¸Šè‡³ä¸‹ä¾æ¬¡æ ‡å·1ã€2ã€3ã€4,è¯·è¾“å…¥æ•°å­—ä»¥é€‰æ‹©æ‚¨æƒ³è¦æ’å…¥çš„ä½ç½®ï¼š\n");
             scanf("%d", &e);
             switch (e)
             {
@@ -147,13 +141,13 @@ int main()
                     }
                     break;
                 default:
-                    printf("ÊäÈë´íÎó£¬Çë°´ÒªÇóÖØÐÂÊäÈë£º\n");
+                    printf("è¾“å…¥é”™è¯¯ï¼Œè¯·æŒ‰è¦æ±‚é‡æ–°è¾“å…¥ï¼š\n");
                     goto label3;
             }
             break;
         label4:
         case 3:
-            printf("Ê£ÏÂËÄÕÅ°ëÅÆÖÐ¼ä¹²ÓÐÈý¸ö¼äÏ¶£¬´ÓÉÏÖÁÏÂÒÀ´Î±êºÅ1¡¢2¡¢3,ÇëÊäÈëÊý×ÖÒÔÑ¡ÔñÄúÏëÒª²åÈëµÄÎ»ÖÃ£º\n");
+            printf("å‰©ä¸‹å››å¼ åŠç‰Œä¸­é—´å…±æœ‰ä¸‰ä¸ªé—´éš™ï¼Œä»Žä¸Šè‡³ä¸‹ä¾æ¬¡æ ‡å·1ã€2ã€3,è¯·è¾“å…¥æ•°å­—ä»¥é€‰æ‹©æ‚¨æƒ³è¦æ’å…¥çš„ä½ç½®ï¼š\n");
             scanf("%d", &f);
             switch (f)
             {
@@ -166,22 +160,22 @@ int main()
                     }
                     break;
                 default:
-                    printf("ÊäÈë´íÎó£¬Çë°´ÒªÇóÖØÐÂÊäÈë£º\n");
+                    printf("è¾“å…¥é”™è¯¯ï¼Œè¯·æŒ‰è¦æ±‚é‡æ–°è¾“å…¥ï¼š\n");
                     goto label4;
             }
             break;
         default:
-            printf("ÊäÈë´íÎó£¬Çë°´ÒªÇóÖØÐÂÊäÈë£º\n");
+            printf("è¾“å…¥é”™è¯¯ï¼Œè¯·æŒ‰è¦æ±‚é‡æ–°è¾“å…¥ï¼š\n");
             goto label5;
     }
-    printf("ÄúÄ¿Ç°µÄÅÆµþÊÇ£º\n");
+    printf("æ‚¨ç›®å‰çš„ç‰Œå æ˜¯ï¼š\n");
     for (int o = 0; o < 7; o++)
         printf("%c", s1[o]);
     printf("\n");
     label6:
-    printf("ÇëÊäÈëÄúÊÇÄÐÉú»¹ÊÇÅ®Éú£¨ÊäÈë¶ÔÓ¦Ñ¡ÏîÇ°ÃæµÄÊý×Ö£©\n");
-    printf("1.ÄÐÉú£¨¶ªÆú¶¥Ãæ1ÕÅ£©\n");
-    printf("2.Å®Éú£¨¶ªÆú¶¥Ãæ2ÕÅ£©\n");
+    printf("è¯·è¾“å…¥æ‚¨æ˜¯ç”·ç”Ÿè¿˜æ˜¯å¥³ç”Ÿï¼ˆè¾“å…¥å¯¹åº”é€‰é¡¹å‰é¢çš„æ•°å­—ï¼‰\n");
+    printf("1.ç”·ç”Ÿï¼ˆä¸¢å¼ƒé¡¶é¢1å¼ ï¼‰\n");
+    printf("2.å¥³ç”Ÿï¼ˆä¸¢å¼ƒé¡¶é¢2å¼ ï¼‰\n");
     int g = 0, v;
     scanf("%d", &g);
     switch (g)
@@ -191,7 +185,7 @@ int main()
             v = 7 - g;
             break;
         default:
-            printf("ÊäÈë´íÎó£¬Çë°´ÒªÇóÖØÐÂÊäÈë£º\n");
+            printf("è¾“å…¥é”™è¯¯ï¼Œè¯·æŒ‰è¦æ±‚é‡æ–°è¾“å…¥ï¼š\n");
             goto label6;
     }
     char s2[(const int)v];
@@ -199,23 +193,23 @@ int main()
     {
         s2[i - g] = s1[i];
     }
-    printf("ÄúÄ¿Ç°µÄÅÆµþÊÇ£º\n");
+    printf("æ‚¨ç›®å‰çš„ç‰Œå æ˜¯ï¼š\n");
     for (int o = 0; o < v; o++)
         printf("%c", s2[o]);
     printf("\n");
     Sleep(3000);
-    printf("¼ûÖ¤Ææ¼£µÄÊ±¿Ì£º\n");
+    printf("è§è¯å¥‡è¿¹çš„æ—¶åˆ»ï¼š\n");
     int h = 0;
     while (h < 7)
     {
         swap2(s2, v);
         h++;
     }
-    printf("ÄúÄ¿Ç°µÄÅÆµþÊÇ£º\n");
+    printf("æ‚¨ç›®å‰çš„ç‰Œå æ˜¯ï¼š\n");
     for (int o = 0; o < v; o++)
         printf("%c", s2[o]);
     printf("\n");
-    printf("×îºóÒ»¸ö»·½Ú£ººÃÔËÁôÏÂÀ´£¬·³ÄÕ¶ª³öÈ¥£¡\n");
+    printf("æœ€åŽä¸€ä¸ªçŽ¯èŠ‚ï¼šå¥½è¿ç•™ä¸‹æ¥ï¼Œçƒ¦æ¼ä¸¢å‡ºåŽ»ï¼\n");
     int x = 0, y;
     if (g == 2)
     {
@@ -244,9 +238,9 @@ int main()
             x++;
         }
     }
-    printf("Äú²ØÆðÀ´µÄ°ëÅÆÊÇ£º\n");
+    printf("æ‚¨è—èµ·æ¥çš„åŠç‰Œæ˜¯ï¼š\n");
     printf("%c\n", s[0]);
-    printf("ÄúÊÖÉÏÊ£ÓàµÄ°ëÅÆÊÇ£º\n");
+    printf("æ‚¨æ‰‹ä¸Šå‰©ä½™çš„åŠç‰Œæ˜¯ï¼š\n");
     if (g == 2)
         printf("%c\n", *(s2 + x - 1));
     if (g == 1)
